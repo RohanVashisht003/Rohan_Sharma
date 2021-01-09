@@ -1,0 +1,79 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: black;
+    padding:5px 5px;
+}
+
+ul{
+    display:flex;
+}
+
+li{
+    padding:2px 20px;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+}
+
+a:hover{
+    color:gray;
+}
+
+.heading{
+    background-color: palegoldenrod;
+    padding:20px 0px ;
+    
+}
+h1{
+    text-align: center;
+    padding-top: 14px;
+    color: black;
+}
+
+p{
+    font-size: 23px;
+    padding-bottom:6rem;
+}
+
+img{
+    border-radius: 50%;
+    height: 160px;
+    width: 160px;
+}
+
+body{
+    background-image: url(/static/images/blue-watercolor-background_125540-339.jpg);
+    background-size: cover;
+    
+}
+
+.container{
+    text-align: center;
+   /* margin: 0px auto;*/
+    padding: 0px 3rem;
+    margin-top: 2rem;
+}
+
+.btn{
+    display: inline-block;
+    padding: 18px 18px;
+    font-size: 3.2rem;
+    background: #3838e3bf;
+    text-decoration: none;
+    border-radius: 30px;
+    color: white;
+    border: none;
+}
+
+.btn:hover{
+    border-radius: 2px;
+}

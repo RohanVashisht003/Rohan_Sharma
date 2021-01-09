@@ -1,0 +1,91 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    position: absolute;
+    background: url(/static/images/blue-watercolor-background_125540-339.jpg) no-repeat center center;
+    background-size: cover;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+nav{
+    background-color:black;
+    padding:5px 5px;
+}
+
+ul{
+    display:flex;
+}
+
+li{
+    padding:2px 20px;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+    font-size: 20px;
+}
+a:hover{
+    color:gray;
+}
+
+h2{
+    text-align: center;
+    color:black;
+    animation-name:blink;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes blink{
+    from{
+        text-shadow:2px 2px 2px rgb(225, 225, 233);
+    }
+    to{
+        text-shadow:2px 2px 2px rgb(221, 80, 80);
+    }
+}
+
+p{
+    text-align: center;
+}
+
+.container{
+    margin: 34px auto;
+    max-width: 70%;
+}
+
+input,textarea{
+    display: block;
+    margin: 16px auto;
+    width: 80%;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 4px 2px;
+}
+
+.btn{
+    margin: 2px auto;
+    display: block;
+    color: white;
+    border: 2px outset;
+    padding: 6px 25px;
+    border-radius: 9px;
+    font-size: larger;
+    cursor: pointer;
+    background-color: royalblue;
+}
+.btn:hover{
+    background-color: rgb(37, 97, 194);
+}
